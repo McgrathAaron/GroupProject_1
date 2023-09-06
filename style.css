@@ -1,0 +1,61 @@
+/* about page css */
+
+.banner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.banner img{
+    width: 50rem;
+}
+
+.theme-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme-text p{
+    width: 30rem;
+    font-family: Courier Prime;
+    font-size: 40px;
+    margin: 20px;
+    
+    
+}
+
+.about-picture{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.about-picture img{
+    margin-top: 150px;
+    width: 50rem;
+    margin-bottom: 150px;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    
+}
+
+.about-text p{
+    text-align: center;
+    font-family: courier prime;
+    font-size: 24px;
+    margin: 10px;
+    width: 75%;
+}
+.h2-about-text{
+    font-size: 35px;
+}
