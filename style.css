@@ -1,32 +1,21 @@
 /* about page css */
 
-.banner{
+.banner {
     display: flex;
     width: 100%;
     justify-content: center;
-
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: transparent;
+    align-items: center;
 }
 
 .banner img{
     width: 50rem;
 }
 
-.theme-text{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
 
-.theme-text p{
-    width: 30rem;
-    font-family: Courier Prime;
-    font-size: 40px;
-    margin: 20px;
-    
-    
-}
 
 .about-picture{
     display: flex;
@@ -46,16 +35,100 @@
     width: 100%;
     justify-self: center;
     align-items: center;
+    color: #f9f9fb;
     
 }
 
 .about-text p{
     text-align: center;
-    font-family: courier prime;
+    font-family:'CourierPrime', monospace;
     font-size: 24px;
     margin: 10px;
     width: 75%;
+    color: #f9f9fb;
+
 }
 .h2-about-text{
     font-size: 35px;
+    font-family:'CourierPrime', monospace;
+    font-weight: bold;  
 }
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+}
+
+.banner-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+}
+
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    background-color: #20202B;
+}
+
+#buy-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#buy-button img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#buy-button:hover img {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+.theme-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    font-family: 'CourierPrime', monospace;
+    font-size: 48px;
+    margin: auto;
+    color: #f9f9fb;
+}
+
+.theme-text p{
+    width: 30rem;
+    font-family:'CourierPrime', monospace;
+    font-size: 40px;
+    margin: 20px;
+    
+    
+}
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url('Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
