@@ -1,4 +1,4 @@
-/* about page css */
+/* About Page CSS */
 
 .banner {
     display: flex;
@@ -11,47 +11,44 @@
     align-items: center;
 }
 
-.banner img{
+.banner img {
     width: 50rem;
 }
 
-
-
-.about-picture{
+.about-picture {
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.about-picture img{
+.about-picture img {
     margin-top: 150px;
     width: 50rem;
     margin-bottom: 150px;
 }
 
-.about-text{
+.about-text {
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-self: center;
     align-items: center;
     color: #f9f9fb;
-    
 }
 
-.about-text p{
+.about-text p {
     text-align: center;
-    font-family:'CourierPrime', monospace;
+    font-family: 'CourierPrime', monospace;
     font-size: 24px;
     margin: 10px;
     width: 75%;
     color: #f9f9fb;
-
 }
-.h2-about-text{
+
+.h2-about-text {
     font-size: 35px;
-    font-family:'CourierPrime', monospace;
-    font-weight: bold;  
+    font-family: 'CourierPrime', monospace;
+    font-weight: bold;
 }
 
 .banner-content {
@@ -88,6 +85,7 @@ body, h1, h2 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 #buy-button img {
     width: 200px;
     height: auto;
@@ -105,7 +103,7 @@ body, h1, h2 {
     top: 0;
 }
 
-.theme-text{
+.theme-text {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -120,15 +118,39 @@ body, h1, h2 {
     color: #f9f9fb;
 }
 
-.theme-text p{
+.theme-text p {
     width: 30rem;
-    font-family:'CourierPrime', monospace;
+    font-family: 'CourierPrime', monospace;
     font-size: 40px;
     margin: 20px;
-    
-    
 }
 
 @font-face {
     font-family: 'Courier Prime';
     src: url('Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
+}
+
+.icon-container {
+    position: absolute;
+    right: 0;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-icon {
+    transition: filter 0.3s ease;
+    margin-left: 10px;
+}
+
+.social-icon:hover {
+    filter: drop-shadow(0 0 5px #90FF02);
+}
